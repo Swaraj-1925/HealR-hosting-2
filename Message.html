@@ -4,41 +4,102 @@
   <meta charset="utf-8">
   <title></title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="home-chat.css">
-  <link rel="stylesheet" type="text/css" href="navbar.css">
-   
+  <link rel="stylesheet" type="text/css" href="../style/home-chat.css">
+  <link rel="stylesheet" type="text/css" href="../style/navbar.css">
+  
 </head>
 
     
   <body>
+    <style>
+       @media (min-width: 428px)
+        {
+          .navbar{
+            left: 26rem;
+            top: 49rem;
+            
+          }
+          .navbar ul {
+                
+                border-radius: 25px;
+                width: 120px;
+                height: 30rem;
+               
+            }
+            .navbar a {
+                
+                width: 2rem;
+                height: 2rem;
+                border-radius: 8px;
+            }
+            .navbar li a img {
+              position: fixed;
+              margin: 18px;
+              left: 8px;
+              width: 40px;
+              height: auto;
+          }
+        
+         }
+          
+          @media (min-width: 1165px)
+           {
+            .navbar{
+            left: 43rem;
+            top: 17rem;
+            
+          }
+          .navbar ul {
+                
+                border-radius: 25px;
+                width: 70px;
+                height: 22rem;
+               
+            }
+            .navbar a {
+                
+                width: 3rem;
+                height: 3rem;
+                border-radius: 8px;
+            }
+            .navbar li a img {
+              position: fixed;
+              margin: 18px;
+              left: 8px;
+              width: 27px;
+              height: auto;
+          }
+            
+          }
+    </style>
   
-    <div class="navbar" style="left: 40rem;">
+    <div class="navbar">
       <ul>
         <li>
           <a href="">
             <i class="ai-home"></i>
-            <img src="home.png" alt="">
+            <img src="../icon/home.png" alt="">
             
           </a>
         </li>
         <li>
-          <a href="Message.html">
+          <a href="./Message.html">
             <i class="ai-image"></i>
-            <img src="message.png" alt="">
+            <img src="../icon/message.png" alt="">
             
           </a>
         </li>		
         <li>
-          <a href="resourse.html">
+          <a href="./resourse.html">
             <i class="ai-book-open"></i>
-            <img src="resources.png" alt="">
+            <img src="../icon/resources.png" alt="">
        
           </a>
         </li>
         <li>	
           <a href="setting.html">
             <i class="ai-gear"></i>
-            <img src="setting.png" alt="">
+            <img src="../icon/setting.png" alt="">
           </a>
         </li>
         
