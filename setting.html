@@ -14,71 +14,103 @@
 
 <body>
     <style>
-       @media screen and (max-width: 1200px) 
-{
-  .navbar {
-   
-    min-height: 100vh;
-    padding-top: 5px;
-    padding-bottom: 5vh;
-    position: fixed;
-    margin: 15px;
-    margin-left: 15px;
-    left: 9rem;
-    top: 22.3rem;
-    width: 100px;
-    z-index: 1;
-    transform: rotate(270deg);
-  }
-  .navbar ul {
-    position: fixed;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 0.75rem;
-    border-radius: 15px;
-    width: 60px;
-    height: 20rem;
-    box-shadow: 0 10px 50px 0 rgba(5, 4, 62, 0.25);
-  }
-  .navbar li a img{
-    position: fixed;
-    margin: 1px;
-    left: 32px;
-    width: 30px;
-    height: auto;
-  }
-  li:nth-child(6) {
-    margin-top: 5rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid #363664;
-  }
-  li + li {
-    margin-top: 0.75rem;
-  }
-  .navbar a {
-    color: #FFF;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin-left: -0px;
-    justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 8px;
-  }
- 
-  
-}
+        @media screen and (max-width: 1200px) 
+      {
+        .navbar {
+         
+          min-height: 100vh;
+          padding-top: 5px;
+          padding-bottom: 5vh;
+          position: fixed;
+          margin: 15px;
+          margin-left: 15px;
+          left: 44%;
+          top: 42%;
+          width: 100px;
+          z-index: 1;
+          transform: rotate(270deg);
+        }
+        .navbar ul {
+          position: fixed;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding: 0.75rem;
+          border-radius: 15px;
+          width: 54px;
+          height: 16rem;
+          box-shadow: 0 10px 50px 0 rgba(5, 4, 62, 0.25);
+        }
+        .navbar li a img{
+          position: fixed;
+          margin: 1px;
+          left: 32px;
+          width: 24%;
+          height: auto;
+        }
+        .navbar a {
+          color: #FFF;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          position: relative;
+          margin-left: -0px;
+          justify-content: center;
+          width: 1rem;
+          height: 1rem;
+          border-radius: 8px;
+        }
 
-      </style>
+        
+        @media screen and (max-width: 425px) {
+             .resourse {
+             left: 0; /* Adjust position for smaller screens */
+             width: 100%; /* Occupy full width */
+             }
+
+             .nav-resourse {
+             flex: 0.15; /* Adjusted flex value */
+             }
+
+             .filter {
+             flex: 0.15; /* Adjusted flex value */
+             }
+             .section-products .col-md-6 {
+             flex-basis: calc(50% - 20px); /* Two items in a row */
+             margin-bottom: 20px; /* Adjust spacing between cards */
+             }
+
+             .section-products .col-xl-3 {
+             flex-basis: calc(50% - 20px); /* Two items in a row */
+             margin-bottom: 20px; /* Adjust spacing between cards */
+             }
+             .section-products {
+              padding: 80px 31px 66px;
+              margin-left: 10px;
+             }
+             .resources-ctg {
+                     flex: 0.15;
+                     padding: 3px;
+                     border: 1px solid #ccc;
+                     border-radius: 4px 0 0 4px;
+                     height: 25%;
+                     border-radius: 10px;
+                     position: relative;
+                     top: 6px;
+                     margin-top: 56px;
+                     }
+             
+
+             }
+        
+      }
+     </style>
     <div class="navbar">
         <ul>
           <li>
